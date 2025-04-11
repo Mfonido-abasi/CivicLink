@@ -59,12 +59,13 @@ This contract can be deployed to any EVM-compatible blockchain (e.g., Ethereum S
 Once deployed, you can interact with the contract using:
 
 * **Remix:** Use the "Deployed Contracts" section in the "Deploy & Run Transactions" tab to call the contract's functions.
+* **Verified Contract Address (Sepolia):** `0x21fD67C3fC934dad7c3C202FA86003E5Da9Ff1D6`
+* **On Etherscan:** https://sepolia.etherscan.io/address/0x21fD67C3fC934dad7c3C202FA86003E5Da9Ff1D6#code
 * **Web3 Libraries (e.g., ethers.js, web3.js):** Integrate with your frontend application using a Web3 JavaScript library, providing the contract's address and ABI.
 
 ## Getting the ABI
 
-The ABI (Application Binary Interface) is necessary for external applications to interact with the contract. You can obtain the ABI from:
-
+The ABI (Application Binary Interface) is necessary for external applications to interact with the contract. You can obtain the ABI from the Abi file or:
 * **Remix:** In the "Solidity compiler" tab, after successful compilation, you can copy the ABI from the "Compilation Details" section.
 * **Hardhat/Truffle:** These development environments typically generate the ABI in the `artifacts` directory after compilation.
 

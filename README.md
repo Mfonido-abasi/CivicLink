@@ -65,7 +65,7 @@ Once deployed, you can interact with the contract using:
 
 ## Getting the ABI
 
-The ABI (Application Binary Interface) is necessary for external applications to interact with the contract. You can obtain the ABI from the Abi file or:
+The ABI (Application Binary Interface) is necessary for external applications to interact with the contract. You can obtain the ABI from the CivicLink.json file or:
 * **Remix:** In the "Solidity compiler" tab, after successful compilation, you can copy the ABI from the "Compilation Details" section.
 * **Hardhat/Truffle:** These development environments typically generate the ABI in the `artifacts` directory after compilation.
 
